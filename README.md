@@ -39,6 +39,10 @@ ggplot(comunas_RM) +
   labs(title = "Poblacion de 65 anios y mas en la Region Metropolitana") +
   theme_minimal(base_size = 13)
 
+<img width="862" height="515" alt="Rplot" src="https://github.com/user-attachments/assets/41fcd9a4-67a9-4f0c-a708-cb70f13b5533" />
+
+
+
   # De la BD mapa de zonas, creamos una específica para la comuna de Puente ALto, filtrando por su correspondiente código censal. Luego, unimos los resultados del censo 2017 por zonas
 
   zonas_pte_alto <- mapa_zonas %>% 
@@ -63,3 +67,6 @@ ggplot() +
   scale_fill_gradientn(colors = paleta, name = "Población") +
   labs(title = "Poblacion de 65 anios y mas en la Comuna de Puente Alto") +
   theme_minimal(base_size = 13)
+
+<img width="862" height="515" alt="Rplot01" src="https://github.com/user-attachments/assets/6480cd8c-b40f-4d78-a3c0-6bc49822c4cd" />
+
