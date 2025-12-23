@@ -8,6 +8,7 @@ library(plotly)
 
 
 
+
 poblacion_adulto_mayor_comunas <- censo_2017_comunas %>% 
   filter(as.integer(edad) >= 14) %>% 
   group_by(codigo_comuna) %>% 
